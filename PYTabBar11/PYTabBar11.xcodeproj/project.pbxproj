@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185B0D351D6E77D700D3EC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D341D6E77D700D3EC56 /* main.m */; };
+		185B0D381D6E77D700D3EC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D371D6E77D700D3EC56 /* AppDelegate.m */; };
+		185B0D3E1D6E77D700D3EC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B0D3C1D6E77D700D3EC56 /* Main.storyboard */; };
+		185B0D401D6E77D700D3EC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B0D3F1D6E77D700D3EC56 /* Assets.xcassets */; };
+		185B0D431D6E77D700D3EC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B0D411D6E77D700D3EC56 /* LaunchScreen.storyboard */; };
+		185B0D4E1D6E77D800D3EC56 /* PYTabBar11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D4D1D6E77D800D3EC56 /* PYTabBar11Tests.m */; };
+		185B0D591D6E77D800D3EC56 /* PYTabBar11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D581D6E77D800D3EC56 /* PYTabBar11UITests.m */; };
+		185B0D811D6E81BD00D3EC56 /* A1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D781D6E81BD00D3EC56 /* A1ViewController.m */; };
+		185B0D821D6E81BD00D3EC56 /* A2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D7A1D6E81BD00D3EC56 /* A2ViewController.m */; };
+		185B0D831D6E81BD00D3EC56 /* A3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D7C1D6E81BD00D3EC56 /* A3ViewController.m */; };
+		185B0D841D6E81BD00D3EC56 /* A4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D7E1D6E81BD00D3EC56 /* A4ViewController.m */; };
+		185B0D8B1D6E81F300D3EC56 /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D881D6E81F300D3EC56 /* YLTabBar.m */; };
+		185B0D8C1D6E81F300D3EC56 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D8A1D6E81F300D3EC56 /* UIView+Extension.m */; };
+		185B0D921D6E828600D3EC56 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D911D6E828600D3EC56 /* TabBarController.m */; };
+		185B0D951D6E8E8700D3EC56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B0D941D6E8E8700D3EC56 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185B0D4A1D6E77D800D3EC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185B0D281D6E77D700D3EC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185B0D2F1D6E77D700D3EC56;
+			remoteInfo = PYTabBar11;
+		};
+		185B0D551D6E77D800D3EC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185B0D281D6E77D700D3EC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185B0D2F1D6E77D700D3EC56;
+			remoteInfo = PYTabBar11;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185B0D301D6E77D700D3EC56 /* PYTabBar11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYTabBar11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B0D341D6E77D700D3EC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185B0D361D6E77D700D3EC56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185B0D371D6E77D700D3EC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185B0D3D1D6E77D700D3EC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185B0D3F1D6E77D700D3EC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185B0D421D6E77D700D3EC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185B0D441D6E77D800D3EC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B0D491D6E77D800D3EC56 /* PYTabBar11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYTabBar11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B0D4D1D6E77D800D3EC56 /* PYTabBar11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTabBar11Tests.m; sourceTree = "<group>"; };
+		185B0D4F1D6E77D800D3EC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B0D541D6E77D800D3EC56 /* PYTabBar11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYTabBar11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B0D581D6E77D800D3EC56 /* PYTabBar11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTabBar11UITests.m; sourceTree = "<group>"; };
+		185B0D5A1D6E77D800D3EC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B0D771D6E81BD00D3EC56 /* A1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A1ViewController.h; sourceTree = "<group>"; };
+		185B0D781D6E81BD00D3EC56 /* A1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A1ViewController.m; sourceTree = "<group>"; };
+		185B0D791D6E81BD00D3EC56 /* A2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2ViewController.h; sourceTree = "<group>"; };
+		185B0D7A1D6E81BD00D3EC56 /* A2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2ViewController.m; sourceTree = "<group>"; };
+		185B0D7B1D6E81BD00D3EC56 /* A3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A3ViewController.h; sourceTree = "<group>"; };
+		185B0D7C1D6E81BD00D3EC56 /* A3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A3ViewController.m; sourceTree = "<group>"; };
+		185B0D7D1D6E81BD00D3EC56 /* A4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A4ViewController.h; sourceTree = "<group>"; };
+		185B0D7E1D6E81BD00D3EC56 /* A4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A4ViewController.m; sourceTree = "<group>"; };
+		185B0D871D6E81F300D3EC56 /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
+		185B0D881D6E81F300D3EC56 /* YLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBar.m; sourceTree = "<group>"; };
+		185B0D891D6E81F300D3EC56 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		185B0D8A1D6E81F300D3EC56 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		185B0D901D6E828600D3EC56 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		185B0D911D6E828600D3EC56 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		185B0D931D6E8E8700D3EC56 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185B0D941D6E8E8700D3EC56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185B0D2D1D6E77D700D3EC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D461D6E77D800D3EC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D511D6E77D800D3EC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185B0D271D6E77D700D3EC56 = {
+			isa = PBXGroup;
+			children = (
+				185B0D321D6E77D700D3EC56 /* PYTabBar11 */,
+				185B0D4C1D6E77D800D3EC56 /* PYTabBar11Tests */,
+				185B0D571D6E77D800D3EC56 /* PYTabBar11UITests */,
+				185B0D311D6E77D700D3EC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185B0D311D6E77D700D3EC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D301D6E77D700D3EC56 /* PYTabBar11.app */,
+				185B0D491D6E77D800D3EC56 /* PYTabBar11Tests.xctest */,
+				185B0D541D6E77D800D3EC56 /* PYTabBar11UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185B0D321D6E77D700D3EC56 /* PYTabBar11 */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D361D6E77D700D3EC56 /* AppDelegate.h */,
+				185B0D371D6E77D700D3EC56 /* AppDelegate.m */,
+				185B0D901D6E828600D3EC56 /* TabBarController.h */,
+				185B0D911D6E828600D3EC56 /* TabBarController.m */,
+				185B0D761D6E81BD00D3EC56 /* ViewController */,
+				185B0D861D6E81E500D3EC56 /* YLTabBar */,
+				185B0D3C1D6E77D700D3EC56 /* Main.storyboard */,
+				185B0D3F1D6E77D700D3EC56 /* Assets.xcassets */,
+				185B0D411D6E77D700D3EC56 /* LaunchScreen.storyboard */,
+				185B0D441D6E77D800D3EC56 /* Info.plist */,
+				185B0D331D6E77D700D3EC56 /* Supporting Files */,
+			);
+			path = PYTabBar11;
+			sourceTree = "<group>";
+		};
+		185B0D331D6E77D700D3EC56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D341D6E77D700D3EC56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185B0D4C1D6E77D800D3EC56 /* PYTabBar11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D4D1D6E77D800D3EC56 /* PYTabBar11Tests.m */,
+				185B0D4F1D6E77D800D3EC56 /* Info.plist */,
+			);
+			path = PYTabBar11Tests;
+			sourceTree = "<group>";
+		};
+		185B0D571D6E77D800D3EC56 /* PYTabBar11UITests */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D581D6E77D800D3EC56 /* PYTabBar11UITests.m */,
+				185B0D5A1D6E77D800D3EC56 /* Info.plist */,
+			);
+			path = PYTabBar11UITests;
+			sourceTree = "<group>";
+		};
+		185B0D761D6E81BD00D3EC56 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D771D6E81BD00D3EC56 /* A1ViewController.h */,
+				185B0D781D6E81BD00D3EC56 /* A1ViewController.m */,
+				185B0D791D6E81BD00D3EC56 /* A2ViewController.h */,
+				185B0D7A1D6E81BD00D3EC56 /* A2ViewController.m */,
+				185B0D7B1D6E81BD00D3EC56 /* A3ViewController.h */,
+				185B0D7C1D6E81BD00D3EC56 /* A3ViewController.m */,
+				185B0D7D1D6E81BD00D3EC56 /* A4ViewController.h */,
+				185B0D7E1D6E81BD00D3EC56 /* A4ViewController.m */,
+				185B0D931D6E8E8700D3EC56 /* ViewController.h */,
+				185B0D941D6E8E8700D3EC56 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		185B0D861D6E81E500D3EC56 /* YLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				185B0D871D6E81F300D3EC56 /* YLTabBar.h */,
+				185B0D881D6E81F300D3EC56 /* YLTabBar.m */,
+				185B0D891D6E81F300D3EC56 /* UIView+Extension.h */,
+				185B0D8A1D6E81F300D3EC56 /* UIView+Extension.m */,
+			);
+			path = YLTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185B0D2F1D6E77D700D3EC56 /* PYTabBar11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B0D5D1D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11" */;
+			buildPhases = (
+				185B0D2C1D6E77D700D3EC56 /* Sources */,
+				185B0D2D1D6E77D700D3EC56 /* Frameworks */,
+				185B0D2E1D6E77D700D3EC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYTabBar11;
+			productName = PYTabBar11;
+			productReference = 185B0D301D6E77D700D3EC56 /* PYTabBar11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185B0D481D6E77D800D3EC56 /* PYTabBar11Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B0D601D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11Tests" */;
+			buildPhases = (
+				185B0D451D6E77D800D3EC56 /* Sources */,
+				185B0D461D6E77D800D3EC56 /* Frameworks */,
+				185B0D471D6E77D800D3EC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185B0D4B1D6E77D800D3EC56 /* PBXTargetDependency */,
+			);
+			name = PYTabBar11Tests;
+			productName = PYTabBar11Tests;
+			productReference = 185B0D491D6E77D800D3EC56 /* PYTabBar11Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185B0D531D6E77D800D3EC56 /* PYTabBar11UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B0D631D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11UITests" */;
+			buildPhases = (
+				185B0D501D6E77D800D3EC56 /* Sources */,
+				185B0D511D6E77D800D3EC56 /* Frameworks */,
+				185B0D521D6E77D800D3EC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185B0D561D6E77D800D3EC56 /* PBXTargetDependency */,
+			);
+			name = PYTabBar11UITests;
+			productName = PYTabBar11UITests;
+			productReference = 185B0D541D6E77D800D3EC56 /* PYTabBar11UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185B0D281D6E77D700D3EC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					185B0D2F1D6E77D700D3EC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					185B0D481D6E77D800D3EC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 185B0D2F1D6E77D700D3EC56;
+					};
+					185B0D531D6E77D800D3EC56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 185B0D2F1D6E77D700D3EC56;
+					};
+				};
+			};
+			buildConfigurationList = 185B0D2B1D6E77D700D3EC56 /* Build configuration list for PBXProject "PYTabBar11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185B0D271D6E77D700D3EC56;
+			productRefGroup = 185B0D311D6E77D700D3EC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185B0D2F1D6E77D700D3EC56 /* PYTabBar11 */,
+				185B0D481D6E77D800D3EC56 /* PYTabBar11Tests */,
+				185B0D531D6E77D800D3EC56 /* PYTabBar11UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185B0D2E1D6E77D700D3EC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B0D431D6E77D700D3EC56 /* LaunchScreen.storyboard in Resources */,
+				185B0D401D6E77D700D3EC56 /* Assets.xcassets in Resources */,
+				185B0D3E1D6E77D700D3EC56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D471D6E77D800D3EC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D521D6E77D800D3EC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185B0D2C1D6E77D700D3EC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B0D8C1D6E81F300D3EC56 /* UIView+Extension.m in Sources */,
+				185B0D831D6E81BD00D3EC56 /* A3ViewController.m in Sources */,
+				185B0D381D6E77D700D3EC56 /* AppDelegate.m in Sources */,
+				185B0D351D6E77D700D3EC56 /* main.m in Sources */,
+				185B0D951D6E8E8700D3EC56 /* ViewController.m in Sources */,
+				185B0D811D6E81BD00D3EC56 /* A1ViewController.m in Sources */,
+				185B0D821D6E81BD00D3EC56 /* A2ViewController.m in Sources */,
+				185B0D921D6E828600D3EC56 /* TabBarController.m in Sources */,
+				185B0D8B1D6E81F300D3EC56 /* YLTabBar.m in Sources */,
+				185B0D841D6E81BD00D3EC56 /* A4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D451D6E77D800D3EC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B0D4E1D6E77D800D3EC56 /* PYTabBar11Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B0D501D6E77D800D3EC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B0D591D6E77D800D3EC56 /* PYTabBar11UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185B0D4B1D6E77D800D3EC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185B0D2F1D6E77D700D3EC56 /* PYTabBar11 */;
+			targetProxy = 185B0D4A1D6E77D800D3EC56 /* PBXContainerItemProxy */;
+		};
+		185B0D561D6E77D800D3EC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185B0D2F1D6E77D700D3EC56 /* PYTabBar11 */;
+			targetProxy = 185B0D551D6E77D800D3EC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185B0D3C1D6E77D700D3EC56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B0D3D1D6E77D700D3EC56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185B0D411D6E77D700D3EC56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B0D421D6E77D700D3EC56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185B0D5B1D6E77D800D3EC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185B0D5C1D6E77D800D3EC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185B0D5E1D6E77D800D3EC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYTabBar11/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185B0D5F1D6E77D800D3EC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYTabBar11/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185B0D611D6E77D800D3EC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYTabBar11Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYTabBar11.app/PYTabBar11";
+			};
+			name = Debug;
+		};
+		185B0D621D6E77D800D3EC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYTabBar11Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYTabBar11.app/PYTabBar11";
+			};
+			name = Release;
+		};
+		185B0D641D6E77D800D3EC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYTabBar11UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYTabBar11;
+			};
+			name = Debug;
+		};
+		185B0D651D6E77D800D3EC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYTabBar11UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYTabBar11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYTabBar11;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185B0D2B1D6E77D700D3EC56 /* Build configuration list for PBXProject "PYTabBar11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B0D5B1D6E77D800D3EC56 /* Debug */,
+				185B0D5C1D6E77D800D3EC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185B0D5D1D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B0D5E1D6E77D800D3EC56 /* Debug */,
+				185B0D5F1D6E77D800D3EC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185B0D601D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B0D611D6E77D800D3EC56 /* Debug */,
+				185B0D621D6E77D800D3EC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185B0D631D6E77D800D3EC56 /* Build configuration list for PBXNativeTarget "PYTabBar11UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B0D641D6E77D800D3EC56 /* Debug */,
+				185B0D651D6E77D800D3EC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185B0D281D6E77D700D3EC56 /* Project object */;
+}
